@@ -1,0 +1,41 @@
+{
+  "name": "styleguid-example",
+  "version": "1.0.0",
+  "description": "",
+  "main": "styleguide.config.js",
+  "scripts": {
+    "build": "webpack",
+    "styleguide": "styleguidist server",
+    "styleguide:build": "styleguidist build",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "babel-cli": "6.24.1",
+    "babel-core": "6.25.0",
+    "babel-eslint": "7.2.3",
+    "babel-loader": "7.1.1",
+    "babel-plugin-add-module-exports": "0.2.1",
+    "babel-polyfill": "6.23.0",
+    "babel-preset-es2015": "6.24.1",
+    "babel-preset-es2016": "6.24.1",
+    "babel-preset-es2017": "6.24.1",
+    "babel-preset-react": "6.24.1",
+    "babel-preset-stage-0": "6.24.1",
+    "babel-preset-stage-1": "6.24.1",
+    "babel-register": "6.24.1",
+    "extract-text-webpack-plugin": "2.1.2",
+    "postcss-cssnext": "2.11.0",
+    "postcss-import": "10.0.0",
+    "postcss-loader": "2.0.6",
+    "react-styleguidist": "5.5.1",
+    "webpack": "3.0.0"
+  },
+  "dependencies": {
+    "classnames": "2.2.5",
+    "react": "15.6.1",
+    "react-dom": "15.6.1"
+  }
+}
